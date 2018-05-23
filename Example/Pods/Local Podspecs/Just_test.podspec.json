@@ -1,0 +1,22 @@
+{
+  "name": "Just_test",
+  "version": "0.1.0",
+  "summary": "A short description of Just_test.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zoujinbiao/Just_test",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zoujinbiao": "zoujinbiao@guazi.com"
+  },
+  "source": {
+    "git": "https://github.com/zoujinbiao/Just_test.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Just_test/Classes/**/*"
+}
