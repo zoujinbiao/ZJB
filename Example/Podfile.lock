@@ -1,16 +1,79 @@
 PODS:
-  - Just_test (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - DACircularProgress (2.3.1)
+  - FMDB/SQLCipher (2.7.2):
+    - SQLCipher
+  - Just_test (1.0.0):
+    - AFNetworking (~> 3.0)
+    - DACircularProgress
+    - FMDB/SQLCipher
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Protobuf
+    - SDWebImage
+    - TZImagePickerController
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.13)
+  - Protobuf (3.4.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SQLCipher (3.4.1):
+    - SQLCipher/standard (= 3.4.1)
+  - SQLCipher/common (3.4.1)
+  - SQLCipher/standard (3.4.1):
+    - SQLCipher/common
+  - TZImagePickerController (1.9.3)
 
 DEPENDENCIES:
   - Just_test (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - DACircularProgress
+    - FMDB
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - Protobuf
+    - SDWebImage
+    - SQLCipher
+    - TZImagePickerController
 
 EXTERNAL SOURCES:
   Just_test:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Just_test: 6f1f846db03a44c5933a13d1dbffc5355fd14dc8
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Just_test: d61baf336e4b6347c86d0b0f9eea804f143fba3b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: 56a28aa628c9895e97a518dabaecf70b18f92f32
+  Protobuf: 03eef2ee0b674770735cf79d9c4d3659cf6908e8
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SQLCipher: 43d12c0eb9c57fb438749618fc3ce0065509a559
+  TZImagePickerController: 079ab986018c22793462e531045a75e366b18252
 
-PODFILE CHECKSUM: a8d4ee73ac220c67db641192d4b83dfcb2f55439
+PODFILE CHECKSUM: 4b7e5d8ceba6ffe35c8e03925f4cc7ec7f326afb
 
 COCOAPODS: 1.5.2

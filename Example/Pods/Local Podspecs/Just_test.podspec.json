@@ -1,6 +1,6 @@
 {
   "name": "Just_test",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of Just_test.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zoujinbiao/Just_test",
@@ -13,10 +13,54 @@
   },
   "source": {
     "git": "https://github.com/zoujinbiao/Just_test.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "Just_test/Classes/**/*"
+  "source_files": "Just_test/Classes/**/*",
+  "resource_bundles": {
+    "Just_test": [
+      "Just_test/Assets/*"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "CoreTelephony",
+    "SystemConfiguration",
+    "CoreGraphics"
+  ],
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ],
+    "Masonry": [
+
+    ],
+    "FMDB/SQLCipher": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "TZImagePickerController": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "DACircularProgress": [
+
+    ],
+    "Protobuf": [
+
+    ]
+  },
+  "libraries": [
+    "z",
+    "resolv.9"
+  ]
 }

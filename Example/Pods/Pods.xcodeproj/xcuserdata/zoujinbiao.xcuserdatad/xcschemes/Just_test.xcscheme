@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F9317C5B99A153F74F68A1EA2088A57E"
+               BlueprintIdentifier = "F1B02673FA79FD7E561AEDBA28BB450D"
                BlueprintName = "Just_test"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Just_test.framework">
+               BuildableName = "libJust_test.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

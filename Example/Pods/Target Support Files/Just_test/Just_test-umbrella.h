@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "UIButton+EnlargeHitArea.h"
+#import "UIButton+Timeinterval.h"
 
 FOUNDATION_EXPORT double Just_testVersionNumber;
 FOUNDATION_EXPORT const unsigned char Just_testVersionString[];

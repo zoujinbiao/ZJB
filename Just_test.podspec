@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Just_test'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of Just_test.'
 
 # This description is used to generate tags and improve search results.
@@ -22,21 +22,29 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/zoujinbiao/Just_test'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zoujinbiao' => 'zoujinbiao@guazi.com' }
   s.source           = { :git => 'https://github.com/zoujinbiao/Just_test.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Just_test/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Just_test' => ['Just_test/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'Just_test' => ['Just_test/Assets/*']
+  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit', 'MapKit'
+  s.dependency 'AFNetworking', '~> 3.0'
+  s.libraries = 'z','resolv.9'
+  s.frameworks = 'CoreTelephony','SystemConfiguration','CoreGraphics'
+  s.dependency 'Masonry'
+  s.dependency 'FMDB/SQLCipher'
+  s.dependency 'MJRefresh'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'MBProgressHUD'      # for GZCSMWPhotoBrowser
+  s.dependency 'SDWebImage'         # for GZCSMWPhotoBrowser
+  s.dependency 'DACircularProgress' # for GZCSMWPhotoBrowser
+  s.dependency 'Protobuf'
 end

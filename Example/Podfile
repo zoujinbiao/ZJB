@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'Just_test_Example' do
   pod 'Just_test', :path => '../'
